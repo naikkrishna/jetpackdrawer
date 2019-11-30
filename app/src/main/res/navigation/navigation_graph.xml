@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.jetpackdrawer.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/secondfragment"
+        android:name="com.example.jetpackdrawer.secondfragment"
+        android:label="fragment_secondfragment"
+        tools:layout="@layout/fragment_secondfragment" />
+    <fragment
+        android:id="@+id/thirdfragment"
+        android:name="com.example.jetpackdrawer.thirdfragment"
+        android:label="fragment_thirdfragment"
+        tools:layout="@layout/fragment_thirdfragment" />
+</navigation>
